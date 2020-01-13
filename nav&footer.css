@@ -2,7 +2,7 @@
 .test {
     grid-column: 1/3;
     grid-row: 1/3;
-    height: 250px;
+    height: 1000px;
     width: 100%;
     background-color: lightgrey;
     text-align: center;
