@@ -1,0 +1,169 @@
+/* **TEST** */
+.test {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    height: 250px;
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5em;
+}
+
+/* **NAVBAR** */
+nav {
+    display: flex;
+    padding-top: 25px;
+}
+
+.logo {
+    padding-left: 35%;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+nav li {
+    color: #316099;
+    padding: 0 25px;
+    font-size: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: #316099;
+}
+
+/* **FOOTER** */
+footer {
+    background-color: #316099;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: white;
+}
+
+#footer1, #footer2, #footer3 {
+    grid-row: 1/2;
+}
+
+#footer1 {
+    grid-column: 1/2;
+}
+
+#footer1a {
+    margin: 0;
+    padding-left: 15%;
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    line-height: 1.25em;
+}
+
+#footer1a h3 {
+    margin: 0;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+}
+
+#footer1a p {
+    margin: 10px 0 0;
+    font-size: 0.8em;
+    opacity: 60%;
+}
+
+#footer1b {
+   align-self: center;
+}
+
+#footer1b  button {
+    margin: 15px 0 0 15%;
+    height: 2.5em;
+    width: 200px;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #5A98D0;
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+#footer2, #footer3 {
+    margin-left: 15%;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+
+}
+
+#footer2 {
+    grid-column: 2/3;
+}
+
+#footer3 {
+    grid-column: 3/4;
+}
+
+#footer3 p {
+    margin: 0;
+}
+
+#footer3 p:nth-of-type(2) {
+    font-size: 0.75em;
+}
+
+#footer3 p:nth-of-type(3) {
+    margin-top: 15px;
+}
+
+#footer3 a {
+    color: white;
+}
+
+#links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#links a{
+    margin: 0;
+    padding: 5px 5px 0;
+}
+
+#links img{
+    width: 30px;
+}
+
+#copy {
+    height: 50px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 1em;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    opacity: 40%;
+}
